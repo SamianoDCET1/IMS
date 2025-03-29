@@ -1,0 +1,57 @@
+body {
+    background-color: whitesmoke;
+}
+.heading h1 {
+    margin-top: 20px;
+    margin-left: -20px;
+}
+  .navbar-brand {
+    color: white !important;
+  }
+  .navbar {
+    background-color: #007bff !important;
+  }
+.collapse {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  .form-label {
+    margin-right: 100px;
+  }
+  
+  .heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-brand img {
+      height: 30px;
+    }
+    .heading h1 {
+      font-size: 24px;
+    }
+    .heading h4 {
+      font-size: 18px;
+    }
+    .form-label {
+      display: block;
+      width: 100%;
+    }
+    table {
+      font-size: 14px;
+    }
+    .btn {
+      font-size: 12px;
+      padding: 5px 10px;
+    }
+  }
+  .btn-success {
+    background-color: navy;
+  }
+  .btn-danger {
+    background-color: maroon;
+  }
